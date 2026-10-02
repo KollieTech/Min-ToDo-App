@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.error {
+    color: rgb(255, 20, 20);
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+li.done {
+    text-decoration: line-through;
+    color: gray;
+}
